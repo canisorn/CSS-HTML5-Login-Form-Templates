@@ -1,0 +1,62 @@
+body{
+		background-image: url('images/bg.gif');	
+		margin: 0 auto;
+		padding: 0;
+		font-family : "Tahoma", Helvetica, sans-serif; 
+}
+
+.box_login{
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	height:400px;
+	background-color:white;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 5px solid #FFDAB9;
+	margin-top: -100px;
+}
+
+.profile-img img{
+	  display: block;
+	  margin: 0 auto;
+      border: 5px solid #FFA07A;
+      border-radius: 50%;
+      width: 180px; 
+	  height: 170px;
+	  background-color:#FFA07A;
+}
+
+.input-login{
+	margin-top: 100px;
+}
+[type=text],[type=password]{
+	display:block;
+	overflow:hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 350px;
+	height: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px;
+	border: 1px solid #ccc;
+
+}
+
+button{
+	font-size : 20px;
+	font-weight: bold;
+	color: white;
+	width:150px;
+	height:50px;
+    background-color : #FFA07A;
+	border: 1px solid #FFA07A; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	margin-top:20px;
+ 
+}
