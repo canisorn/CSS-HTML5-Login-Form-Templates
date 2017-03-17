@@ -10,7 +10,7 @@ body{
 	margin-right:auto;
 	width:500px;
 	height:400px;
-	background-color:white;
+	background-color:#FFDAB9;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
@@ -41,9 +41,19 @@ body{
 	height: 40px;
 	margin-left:auto;
 	margin-right:auto;
-	padding:5px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:50px;
 	border: 1px solid #ccc;
+	font-size:14pt;	
+}
 
+[type=text]{
+	background:  white url('images/username.png') no-repeat;
+}
+
+[type=password]{
+	background:  white url('images/password.png') no-repeat;
 }
 
 button{
@@ -57,6 +67,10 @@ button{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;	
-	margin-top:20px;
- 
+	margin:20px;
+
+}
+
+a{
+		color :#FFA07A;
 }
